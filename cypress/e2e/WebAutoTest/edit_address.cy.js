@@ -35,7 +35,7 @@ describe('Verify Edit Address Functionality', () => {
       cy.get(editAdd.errorMsg_street).should('be.visible')
       cy.get(editAdd.errorMsg_city).should('be.visible')
   })
-  it.only('Failed - Invalid Zip / Postal Code ', () => {
+  it('Failed - Invalid Zip / Postal Code ', () => {
     cy.manageAddress()
     cy.get(editAdd.chngBilling).click()
     cy.get(editAdd.phone).clear().type(validUser.phone)

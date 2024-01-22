@@ -1,0 +1,39 @@
+{
+  "validUser" : {
+    "firstName" : "Rachma",
+    "lastName" : "Kiki",
+    "email" : "rachmakiki@test.com",
+    "password" : "P@ssword1",
+    "confirmPass" : "P@ssword1",
+    "phone" : "08123456789"   
+  },
+  "invalidUser" : {
+    "firstName" : "user",
+    "lastName" : "name",
+    "email" : "test.test.com",
+    "password" : "test",
+    "confirmPass" : "test"
+  },
+  "not_register_email" : "test@test.com",
+  "newUser" : {
+    "firstName" : "Kiki",
+    "lastName" : "Rachma",
+    "email" : "halo@test.com",
+    "password" : "rndmP@ss",
+    "confirmPass" : "rndmP@ss"
+  },
+  "validAddress" : {
+    "street" : "Jl. Merdeka 12",
+    "city" : "Surabaya",
+    "province" : "East Java",
+    "zip" : "12345",
+    "country" : "Indonesia"
+  },
+  "invalidAddress" : {
+    "street" : "12",
+    "city" : "Surabaya",
+    "province" : "East Java",
+    "zip" : "xxx",
+    "country" : "Indonesia"
+  }
+}

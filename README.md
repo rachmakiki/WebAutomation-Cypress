@@ -6,13 +6,13 @@ Ini adalah project latihan [Cypress](https://www.cypress.io/) untuk melakukan En
 Clone the project
 
 ```bash
-  git clone https://github.com/yogasatriautama/Sanber52-Cypress-Kelompok7.git
+  git clone https://github.com/rachmakiki/WebAutomation-Cypress.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd Sanber52-Cypress-Kelompok7
+  cd WebAutomation-Cypress
 ```
 
 Install dependencies
